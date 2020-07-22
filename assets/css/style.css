@@ -98,10 +98,17 @@ header p{
     color: blue;
 }
 
+.facebookIcon:hover{
+    opacity: 0.5;
+}
+
 .githubIcon{
     color: black;
 }
 
+.githubIcon:hover{
+    color: blue;
+}
 .textTitle{
     font-size: 25px;
     font-family: 'Raleway', sans-serif;

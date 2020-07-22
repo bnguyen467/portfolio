@@ -149,7 +149,8 @@ footer p{
 
 .fullWidth{
     width: 100%;
-    min-height: 230px;
+    min-height: 200px;
+    max-height: 300px;
 }
 
 .imgBorder{

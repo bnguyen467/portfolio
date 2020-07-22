@@ -147,6 +147,18 @@ footer p{
     font-style: italic;
 }
 
+.fullWidth{
+    width: 100%;
+    min-height: 230px;
+}
+
+.imgBorder{
+    border: 1px solid black;
+}
+
+.capText{
+    color: black;
+}
 @media (min-width: 768px)
 {
     .navbar a{

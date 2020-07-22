@@ -20,7 +20,7 @@
 
     <!-- style.css -->
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
     <title>Vernon's Portfolio</title>
 </head>
 <body>
@@ -33,45 +33,79 @@
     </header>
 
     <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav class="navbar navbar-expand-md navbar-light bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        
+        <!-- Navbar Items -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup"> 
+            
+            <div class="col-md-4 rightText">
+                <a class="nav-item nav-link active" href="index.html">About Me<span class="sr-only">(current)</span></a>
+            </div>
 
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html">About Me<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
-          </div>
+            <div class="col-md-4 centerText">
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+            </div>
+
+            <div class="col-md-4">
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+            </div>  
+
         </div>
     </nav>
     
-    <!-- Content Container -->
+    <!-- Content Containers -->
     <section class="container-fluid">
-        <article class="row">
-            <div class="card cardSize text-center">
-                <!-- User Image -->
-                <figure id="userImage">
-                    <img class="img-fluid rounded-circle" src="./assets/images/portrait.jpg" alt="Vernon Bao Nguyen">
-                </figure>
+        <div class="row">
 
-                <!-- Profile -->
-                <h2>Vernon Nguyen</h2>
-                <p>I am a student at UC Irvine Boot Camp who is on the way to become a passionate and skillful front end developer</p>
+            <!-- Profile Column -->
+            <article class="col-sm-4">
+                <div class="card cardSize text-center">
 
-                <!-- Icon Links -->
+                    <!-- User Image -->
+                    <figure id="userImage">
+                        <img class="img-fluid rounded-circle" src="./assets/images/portrait.jpg" alt="Vernon Bao Nguyen">
+                    </figure>
 
-                <figure id="icon">
-                    <a href="https://www.facebook.com/nguyenquoc.bao.18041/" target="_blank" title="Facebook"><i class="facebookIcon fa fa-facebook-square"></i></a>
-                    <a href="https://github.com/" target="_blank" title="Github"><i class="githubIcon fa fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/vernon-nguyen-5523871b0/" target="_blank" title="Linkedin"><i class=" fa fa-linkedin-square"></i></a>
-                </figure>
-            </div>
-        </article>
+                    <!-- Profile -->
+                    <h2>Vernon Nguyen</h2>
+                    <p>Email: <span class="italic">467bnguyen@gmail.com</span></p>
+                    <p>Phone: <span class="italic">(714)261-7154</span></p>
+
+                    <!-- Icon -->
+                    <figure id="icon">
+                        <a href="https://www.facebook.com/nguyenquoc.bao.18041/" target="_blank" title="Facebook"><i class="facebookIcon fa fa-facebook-square"></i></a>
+                        <a href="https://github.com/bnguyen467/portfolio.git" target="_blank" title="Github"><i class="githubIcon fa fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/vernon-nguyen-5523871b0/" target="_blank" title="Linkedin"><i class=" fa fa-linkedin-square"></i></a>
+                    </figure>
+                </div>
+            </article>
+            
+            <!-- About Me Column-->
+            <article class="col-sm-8">
+                <div class="card cardSize">
+                        <h1 class = "textTitle">About Myself</h1>
+                        <p class = "text"><span class="tab4"></span>My name is Vernon Bao Nguyen. Vernon is my English name and Bao is my Vietnamese name, so feel free to call me whichever easier for you. I was born and raised in one of the most cities in Vietnam, Dalat. However, it is still a small city so not many people know about it. For that reason, I always want to show people in the world how beautiful it is.</p>
+                        <p class="text"><span class="tab4"></span>When I moved to the United States and got in touch with the internet and the technologies here, inside me gained a passion about it. Since then, I have been learning to use computer a lot, the more I use it, the more I realize how powerful internet is.</p>
+                        <p class="text"><span class="tab4"></span>That is why I have decided to attempt UCI Boot Camp. I believe this would be a chance for me to get into the technological field, have a job, and live with it. When I've become an expert, the first website I'd build will be about the city of Dalat, which is still the most beautiful city I am proud of.</p>
+                </div>  
+            </article>
+        </div>
     </section>
 
-
+    <!-- Footer -->
+    <section id="pageContainer">
+        <div id="wrapper">
+        </div>
+    
+        <footer>
+            <p>
+                &copy; 2020 Portfolio. Made by <strong><span class="italic">Vernon Bao Nguyen</span></strong>
+            </p>
+        </footer>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

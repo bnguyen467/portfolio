@@ -13,5 +13,8 @@ The project folder includes:
   - *style.css*: personal styling library.
   
 - Images folder: contain all images uses in the website.
-**Link to the active site**https://bnguyen467.github.io/portfolio/
+</br>
+
+**Link to the active site:**https://bnguyen467.github.io/portfolio/
+
 ![Example Image](https://github.com/bnguyen467/portfolio/blob/master/assets/images/about-me.png)

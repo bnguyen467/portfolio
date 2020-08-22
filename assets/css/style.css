@@ -167,6 +167,16 @@ footer p{
 .capText{
     color: black;
 }
+
+.textIcon {
+    font-size: 30px;
+    color: black;
+}
+
+.textIcon:hover{
+    color: blue;
+}
+
 @media (min-width: 768px)
 {
     .navbar a{

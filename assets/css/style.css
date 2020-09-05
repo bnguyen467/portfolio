@@ -67,11 +67,17 @@ header p{
     -o-transform: rotate(25deg);
 }
 
-.cardSize{
+.cardSize, .cardSize-portfolio{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
     padding: 10px 15px 10px;
+}
+
+.cardSize-portfolio{
+    min-height: 500px;
+    max-height: 700px;
+    overflow: auto;
 }
 
 .container-fluid .row article .card h2{
@@ -174,6 +180,15 @@ footer p{
 }
 
 .textIcon:hover{
+    color: blue;
+}
+
+.youtube-icon{
+    font-size: 30px;
+    color: red;
+}
+
+.youtube-icon:hover{
     color: blue;
 }
 
